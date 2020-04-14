@@ -56,7 +56,7 @@ const calculator = {
    
   //BONUS write a script to check if LBJ was a 2 term president. IF he was then alert("LBJ served two terms") else alert "LBJ was one and done"
    
-  
+ /* 
 /////challenge 1
 const presidents = [
     { name: "Donald Trump", terms: 1, party: "R" },
@@ -137,3 +137,31 @@ let demooratic2President = [
 
     console.log("Democratic");
   ]
+  */
+
+/*
+  const header = document.querySelector(".header");
+  const header = document.querySelector("#Idheader");
+  const header = document.getElementById("Idheader");
+  const header = document.getSelectorAll(".list-item");
+  items.forEach((element) => console.log(element))
+  const itemsArr = Array.from(items);
+*/
+
+const header = document.querySelector(".header-two");
+const button = document.querySelector(".button");
+const background = document.querySelector(".background");
+
+button.addEventListener("click", function() {
+    if(background.style.backgroundColor !== "rgb(255, 0, 0)"){
+        background.style.backgroundColor !== "rgb(255, 0, 0)";
+    } else{
+        background.style.backgroundColor = "rgb(0, 0, 255)";
+    }
+});
+
+/*
+button.addEventListener("click", function(){
+    const R = Math.floor(Math.random)
+})
+*/
